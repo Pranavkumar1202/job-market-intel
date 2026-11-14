@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS jobs (
+    id               BIGSERIAL PRIMARY KEY,
+    raw_id           BIGINT REFERENCES raw_jobs(id),
+    source           TEXT NOT NULL,
+    external_id      TEXT NOT NULL,
+    title            TEXT,
+    title_normalized TEXT,
+    company          TEXT,
+    location         TEXT,
+    city             TEXT,
+    category         TEXT,
+    contract_type    TEXT,
+    contract_time    TEXT,
+    salary_min       NUMERIC,
+    salary_max       NUMERIC,
+    description      TEXT,
+    url              TEXT,
+    posted_at        TIMESTAMPTZ,
+    dedup_key        TEXT NOT NULL UNIQUE,
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT now()
+);
