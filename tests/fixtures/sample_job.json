@@ -1,0 +1,28 @@
+{
+  "title": "Sr. Data Research Analyst II",
+  "contract_time": "full_time",
+  "description": "This job is with Elsevier, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Senior Data Research Analyst II As a Data Discovery and Enrichment Expert II, you will operate at the intersection of data, AI, and domain knowledge. You will take ownership of complex data initiatives end-to-end, contribute to shaping how the team leverages AI and data science methods, and work closely with produc\u2026",
+  "__CLASS__": "Adzuna::API::Response::Job",
+  "contract_type": "permanent",
+  "id": "5964968875",
+  "salary_is_predicted": "0",
+  "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnU5dlF4Zmc4Ukd5UmFUcDY4NzlBZyIsImkiOiI1OTY0OTY4ODc1In0.FaA5-ZJtWGTyVW_hbXbrFCdpK4Z1OTaE6coi1Jkq2Z4",
+  "redirect_url": "https://www.adzuna.in/land/ad/5964968875?se=ru9vQxfg8RGyRaTp6879Ag&utm_medium=api&utm_source=575b8739&v=90464C21BA9BB5E786416C46643EE76EC6D39410",
+  "category": {
+    "label": "IT Jobs",
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs"
+  },
+  "company": {
+    "display_name": "Elsevier",
+    "__CLASS__": "Adzuna::API::Response::Company"
+  },
+  "location": {
+    "area": [
+      "India"
+    ],
+    "display_name": "India",
+    "__CLASS__": "Adzuna::API::Response::Location"
+  },
+  "created": "2026-11-14T02:40:55Z"
+}
