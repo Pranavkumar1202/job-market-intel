@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger(__name__)
 
 BASE_URL = "https://api.adzuna.com/v1/api/jobs/{country}/search/{page}"
-SEARCH_TERMS = ["data analyst"]
+SEARCH_TERMS = ["machine learning engineer", "ai engineer"]
 SOURCE = "adzuna"
 
 
