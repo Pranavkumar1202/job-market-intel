@@ -3,3 +3,4 @@ psycopg2-binary
 python-dotenv
 pytestnumpy==2.5.5
 sentence-transformers==6.3.0
+pypdf==7.1.0
