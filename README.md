@@ -15,3 +15,7 @@ Pipeline that ingests job postings, extracts skills and matches resumes to jobs.
 - [ ] Cleaning and deduplication
 - [ ] Skill extraction
 - [ ] Matching, API and dashboard
+
+## Screenshots
+![Resume match](docs/images/match.png)
+![Skill trends](docs/images/trends.png)
