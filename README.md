@@ -1,5 +1,7 @@
 # Job Market Intelligence Platform
 
+![CI](https://github.com/Pranavkumar1202/job-market-intel/actions/workflows/ci.yml/badge.svg)
+
 
 A data and AI pipeline that collects job postings, extracts the skills employers ask for,
 and matches a resume to the best-fitting jobs, showing which skills you already have and which you lack.
@@ -34,7 +36,7 @@ flowchart LR
 
 ## Tech stack
 Python, PostgreSQL, sentence-transformers (all-MiniLM-L6-v2), NumPy, FastAPI, Streamlit,
-pytest.
+pytest, GitHub Actions.
 
 ## Results
 | Measure | Value |
