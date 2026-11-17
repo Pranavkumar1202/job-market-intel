@@ -83,6 +83,8 @@ getting a perfect overlap score.
 - Embeddings are stored as plain arrays and compared in NumPy, which is fine for thousands of
   jobs. pgvector would be the next step at larger scale.
 
+- - Data refresh is manual: run the four pipeline commands (fetch, build, extract skills, embed), then restart the API. The free Adzuna plan allows only a small number of calls, so scheduling is left as future work.
+
 ## Data and licensing
 Job data comes from the Adzuna API under its terms and is not stored in this repository.
 Add your own API keys in `.env`.
