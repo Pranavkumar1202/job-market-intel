@@ -21,3 +21,13 @@ Adzuna API (free test tier, 25 calls). Chosen because it has documented terms an
   - False negative: "R" is not matched, because a single letter is too ambiguous to match safely.
 - Recall is also limited by the ~470-character description snippets.
 - Observed: the same ad (e.g. Amicus Therapeutics, Data Analyst) appears several times with different locations, so the location-based dedup key misses it.
+
+## Skill extraction evaluation, batch 2 (extractor-assisted review)
+- 30 jobs reviewed by hand with the extractor's findings visible; each confirmed or corrected.
+- Rule: a skill counts only if the visible text asks for it or says the role uses it. Skills mentioned only in the company description do not count.
+- Data limit: the Adzuna API returns descriptions capped at about 500 characters (raw_jobs: max 500, average 494, 144 of 150 postings at or near the cap). Both the labels and the extractor see only the start of each ad, often the company intro, so results describe extraction on that snippet.
+- Corrections: 3 Python labels (jobs 116, 118, 122) removed because the skill was not in the visible text.
+- Result: precision [81.8]%, recall [95.7]%, F1 [88.2]% (TP [45], FP [10], FN [2]).
+- Caveat: the extractor's output was visible while reviewing, so precision is reliable but recall is likely overstated. Only 30 jobs.
+- Main error types: [skills mentioned only in company descriptions; ...].
+- Batch 1 (23 jobs, about 94%) has the same snippet limit and review bias.
