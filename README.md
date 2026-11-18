@@ -41,10 +41,10 @@ pytest, GitHub Actions.
 ## Results
 | Measure | Value |
 |---|---|
-| Jobs in database | 142 |
+| Jobs in database | 148 |
 | Skill extraction, batch 1 (23 jobs) | precision 93.75%, recall 93.75% (labels corrected after seeing output, so optimistic; 500-character snippets) |
 | Skill extraction, batch 2 (30 jobs, 500-character snippets, extractor-assisted review) | precision 81.8%, recall 95.7% |
-| Automated tests | 22 passing |
+| Automated tests | 27 passing |
 
 ## Quick start (local)
 ```bash
